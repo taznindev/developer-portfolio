@@ -1,0 +1,50 @@
+.orange-color{
+    color:orange
+}
+.body{
+    margin: 0;
+}
+section{
+    display:flex
+}
+.welcome-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.welcome-section a {
+    color: black;
+}
+.content-area h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+p{
+    width: 80%;
+    text-align: justify;
+    font-size: 20px;
+}
+.content-area{
+    padding: 50px;
+}
+.content-area a {
+    text-decoration: none;
+    /* background-color: orange; */
+    color:white;
+    font-weight: 1000px;
+    padding: 10px 30px;
+    border-radius:15px;
+    background-image:linear-gradient(orange, tomato)
+
+
+}
+.content-area h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.image-area img{
+    width: 80%;
+    padding-top: 30px;
+}
+.half-width{
+    width: 50%;
+}
