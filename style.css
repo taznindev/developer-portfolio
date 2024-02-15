@@ -1,3 +1,4 @@
+/* WELCOME-SECTION.CSS */
 .orange-color{
     color:orange
 }
@@ -8,8 +9,8 @@ section{
     display:flex
 }
 .welcome-section{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
 }
 .welcome-section a {
     color: black;
@@ -47,4 +48,30 @@ p{
 }
 .half-width{
     width: 50%;
+}
+/* /* dream-section.css */
+.dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}  
+.experiance-list{
+    margin: 50px;
+    padding: 50px;
+    border-left: 5px solid blueviolet;
+    /* border-radius: 5px; */
+    box-shadow: 0px 0px 10px;
+}
+.experiance-list h3{
+color: orange;
+}
+p{
+    font-size: 20px;
+}
+p h1{
+    font-weight: 800;
+}
+footer{
+    text-align: center;
+    padding: 20px;
 }
